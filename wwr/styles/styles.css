@@ -37,6 +37,7 @@ nav {
 
 nav a {
     text-align: center;
+    background-color: #00b4d8;
     color: #48cae4;
     text-decoration: none;
 }
@@ -48,6 +49,7 @@ nav a:hover {
 
 img {
     max-width: 100%;
+    text-align: center;
 }
 
 #hero {
@@ -66,12 +68,13 @@ img {
     text-align: center;
 }
 
-main-selection {
+main section {
     text-align: center;
 }
 
 #background {
     height: 725px;
+    background-color: #00b4d8;
 }
 
 .book, .join {
@@ -86,7 +89,7 @@ main-selection {
 }
 
 .msg {
-    color: #48cae4;
+    background-color:#48cae4;
 }
 
 .msg h2 {
