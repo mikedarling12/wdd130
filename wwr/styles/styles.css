@@ -37,12 +37,12 @@ nav {
 nav a {
     text-align: center;
     background-color: #00b4d8;
-    color: #48cae4;
+    color: white;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: white;
     color: #0096c7;
 }
 
