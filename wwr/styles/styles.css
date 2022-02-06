@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro&display=swap');
+
+:root {
+    --primary-color:#00b4d8;
+    --secondary-color:#0096c7;
+    --accent1:#48cae4;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,16 +13,26 @@
 
 body {
     background-color: #fcfbfb;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
-    height: 10%;
     width: 100%;
-    background-color: #00b4d8;
+    background-color: var(--primary-color);
 }
 
 .home-title {
     color: #48cae4;
+    font-family: 'Lobster', 'Bradley-Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -25,25 +43,30 @@ h4 {
     width: 80px;
 }
 
+logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 nav {
     margin-right: 20%;
-    margin-top: 5%;
 }
 
 nav a {
     text-align: center;
-    background-color: #00b4d8;
+    background-color: var(--primary-color);
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
     background-color: white;
-    color: #0096c7;
+    color: var(--secondary-color);
 }
 
 img {
@@ -73,22 +96,29 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #00b4d8;
+    background-color: var(--primary-color);
 }
 
 .book, .join {
     background-color: white;
-    color: #0096c7;
+    color: var(--secondary-color);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
-    background-color: #0096c7;
+    background-color: var(--secondary-color);
     color: white;
 }
 
 .msg {
-    background-color:#48cae4;
+    background-color: var(--accent1);
+    font-family: 'Lobster';
+    margin: 35px;
+    line-height: 1.5em;
 }
 
 .msg h2 {
@@ -97,10 +127,26 @@ main section {
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid var(--accent1);
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 footer {
-    background-color: #00b4d8;
+    background-color: var(--primary-color);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -117,5 +163,9 @@ footer a {
 }
 
 footer a:hover {
-    color: #0096c7;
+    color: var(--secondary-color);
+}
+
+footer .social img {
+    padding-top: 15px;
 }
