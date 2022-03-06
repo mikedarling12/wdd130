@@ -101,6 +101,7 @@ img {
 
 #hero-img {
     width: 100%;
+    filter:brightness(50%)
 }
 
 #hero-msg {
@@ -113,7 +114,6 @@ img {
     grid-column: 2/3;
     grid-row: 1/2;
     align-self: center;
-    background-color: #0096c799;
 }
 
 #hero-msg h1, #hero-msg h4 {
