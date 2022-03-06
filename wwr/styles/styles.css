@@ -85,6 +85,14 @@ img {
     margin-top: -100px;
 }
 
+#FAQgrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    margin-top: -100px;
+}
+
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
@@ -99,6 +107,13 @@ img {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+}
+
+#FAQ-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    background-color: #0096c799;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -120,6 +135,19 @@ img {
 
 main section {
     text-align: center;
+}
+
+#FAQ {
+    background-color: var(--accent1);
+    box-shadow: 5px 5px 10px #686473;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    text-align: left;
+    padding: 15px 0px;
+}
+
+#FAQ div {
+    padding: 15px 45px;
 }
 
 #background {
