@@ -25,6 +25,7 @@
 
 body {
     font-family: var(--paragraph-font);
+    margin: 0;
 }
 
 h1 {
