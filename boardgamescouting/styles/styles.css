@@ -23,11 +23,17 @@
   --nav-hover-background-color: #D4A373;
 }
 
+body {
+    font-family: var(--paragraph-font);
+}
+
+h1 {
+    font-family: var(--heading-font);
+}
+
 header {
     width: 100%;
     background-color: var(--primary-color);
-    display: grid;
-    grid-template-columns: 150px auto;
 }
 
 nav {
@@ -39,13 +45,13 @@ nav {
 nav a {
     text-align: center;
     background-color: inherit;
-    color: white;
+    color: var(--accent2-color);
     text-decoration: none;
     padding: 35px;
 }
 
 nav a:hover {
-    background-color: white;
+    background-color: var(--accent2-color);
     color: var(--secondary-color);
 }
 
@@ -136,7 +142,7 @@ footer {
 }
 
 footer h3 {
-    color: white;
+    color: var(--accent2-color);
 }
 
 footer h3:hover {
@@ -144,7 +150,7 @@ footer h3:hover {
 }
 
 footer a {
-    color: white;
+    color: var(--accent2-color);
     text-decoration: none;
 }
 
