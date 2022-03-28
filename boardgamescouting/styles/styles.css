@@ -186,6 +186,16 @@ main {
     height:100%
 }
 
+.button {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
 #aboutinfo {
     grid-row: 5/6;
     grid-column: 1/6;
